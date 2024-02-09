@@ -8,19 +8,20 @@ export default {
   theme: {
     extend: {
       backgroundColor: {
-        '8B3DFF': "#8B3DFF",
-        '0D1216': "#0D1216",
-        'FFFFFF': "#FFFFFF",
+        '8b3dff': "#8b3dff",
+        '0d1216': "#0d1216",
+        'ffffff': "#ffffff",
       },
       colors: {
-        '8B3DFF': "#8B3DFF",
-        '0D1216': "#0D1216",
-        'FFFFFF': "#FFFFFF",
+        '8b3dff': "#8b3dff",
+        '0d1216': "#0d1216",
+        'ffffff': "#ffffff",
       },
       fontFamily: {
         sans: [],
         'reem': ['Reem Kufi', 'sans-serif'],
-        
+        'jacques': ['Jacques Francois', 'sans-serif'],
+
       },
     },
   },
