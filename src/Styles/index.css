@@ -9,6 +9,25 @@
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-tap-highlight-color: transparent;
+  cursor: url('./Cursor/Cursor_1.svg'), default !important;
+}
+
+a,
+span,
+path,
+svg,
+button,
+label,
+select,
+input,
+img,
+li {
+  cursor: url('./Cursor/Cursor_2.svg'), pointer !important;
+}
+
+input[type="text"],
+textarea {
+  cursor: url('./Cursor/Cursor_3.svg'), text !important;
 }
 
 ::-webkit-scrollbar {

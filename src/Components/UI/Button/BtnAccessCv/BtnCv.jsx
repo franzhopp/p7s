@@ -1,11 +1,13 @@
 const BtnCv = () => {
   return (
-    <button className="bg-8b3dff inline-flex items-center gap-2 px-8 py-3 shadow-2xl rounded-full transform active:scale-75 transition-transform">
-      <span className="font-extrabold font-reem text-ffffff text-4xl mr-1">
+    <button
+      className={`bg-8b3dff inline-flex items-center shadow-2xl rounded-full gap-2 px-8 py-3 transform active:scale-75 transition-transform`}
+    >
+      <span className={`text-ffffff text-4xl font-extrabold font-reem mr-1`}>
         Accéder au CV
       </span>
       <svg
-        className="cursor-pointer"
+        className={`cursor-pointer`}
         width="81"
         height="52"
         viewBox="0 0 81 52"
