@@ -3,7 +3,7 @@ const BtnSend = () => {
     <button
       className={`bg-ffffff inline-flex items-center gap-2 px-8 py-3 shadow-2xl rounded-full transform active:scale-75 transition-transform`}
     >
-      <span className={`font-extrabold font-reem text-8b3dff text-4xl mr-2`}>
+      <span className={`text-8b3dff text-4xl font-extrabold font-reem mr-2`}>
         Envoyer
       </span>
       <svg

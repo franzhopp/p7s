@@ -1,7 +1,7 @@
 const BtnClose = () => {
   return (
     <svg
-      className="cursor-pointer"
+      className={`cursor-pointer`}
       width="45"
       height="54"
       viewBox="0 0 45 54"

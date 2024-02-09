@@ -1,7 +1,7 @@
 const LogoNav = () => {
   return (
     <svg
-      className="cursor-pointer  h-16 w-16"
+      className={`cursor-pointer h-16 w-16`}
       width="60"
       height="60"
       viewBox="0 0 100 100"

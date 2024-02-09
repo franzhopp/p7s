@@ -1,7 +1,7 @@
 const LogoSvg = () => {
   return (
     <svg
-      className="cursor-pointer"
+      className={`cursor-pointer`}
       width="60"
       height="60"
       viewBox="0 0 100 100"

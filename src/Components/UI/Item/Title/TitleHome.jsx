@@ -8,7 +8,9 @@ const TitleHome = () => {
     <section x-comp={`About`} className={`bg-0d1216`}>
       <div className={`flex w-full items-center px-5 sm:px-16`}>
         <div className={`lg:w-1/2`}>
-          <h1 className={`flex justify-start items-center text-8b3dff font-reem text-5xl lg:text-8xl`}>
+          <h1
+            className={`flex justify-start items-center text-8b3dff font-reem text-5xl lg:text-8xl`}
+          >
             Design Arbitrator of Exalted Things
           </h1>
           <div className={`flex justify-start mt-5`}>
@@ -18,7 +20,7 @@ const TitleHome = () => {
           </div>
         </div>
       </div>
-      <div className={`bg-0d1216 flex justify-end pb-10 pt-72`}>
+      <div className={`bg-0d1216 flex justify-end pb-5 pt-60`}>
         <ArrowRefresHome />
       </div>
     </section>

@@ -1,7 +1,7 @@
 const ArrowRefresHome = () => {
   return (
     <svg
-      className="mr-5 cursor-pointer"
+      className={`cursor-pointer mr-5`}
       width="50"
       height="61"
       viewBox="0 0 60 71"
