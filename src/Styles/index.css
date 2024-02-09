@@ -8,6 +8,7 @@
 :root {
   font-synthesis: none;
   text-rendering: optimizeLegibility;
+  overflow-x: hidden;
   -webkit-tap-highlight-color: transparent;
   cursor: url('./Cursor/Cursor_1.svg'), default !important;
 }
