@@ -16,12 +16,12 @@ export default {
         '8b3dff': "#8b3dff",
         '0d1216': "#0d1216",
         'ffffff': "#ffffff",
+        '7f41dc': "#7f41dc",
       },
       fontFamily: {
         sans: [],
         'reem': ['Reem Kufi', 'sans-serif'],
         'jacques': ['Jacques Francois', 'sans-serif'],
-
       },
     },
   },

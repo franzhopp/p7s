@@ -15,5 +15,3 @@ const About = () => {
 };
 
 export default About;
-
-// flex flex-wrap justify-center space-x-0 lg:space-x-10
