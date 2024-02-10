@@ -1,11 +1,13 @@
 import TitleAbout from "../../Components/UI/Item/Title/TitleAbout";
-import Cards from "./Cards/Cards";
+import Cards from "./Cards/CardsAbout";
 
 const About = () => {
   return (
-    <section x-comp="About" className="bg-0d1216 py-16">
+    <section x-comp={`About`} className={`bg-0d1216 py-16`}>
       <TitleAbout />
-      <div className="flex justify-start space-x-5 px-16 py-10 lg:py-0">
+      <div
+        className={`flex flex-wrap justify-center 2xl:justify-start space-x-0 2xl:space-x-20 px-16`}
+      >
         <Cards />
       </div>
     </section>
@@ -13,3 +15,5 @@ const About = () => {
 };
 
 export default About;
+
+// flex flex-wrap justify-center space-x-0 lg:space-x-10

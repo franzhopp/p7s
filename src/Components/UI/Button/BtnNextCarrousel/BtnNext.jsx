@@ -1,13 +1,15 @@
 const BtnNext = () => {
   return (
     <button
-      className={`bg-ffffff inline-flex items-center rotate-90 gap-2 px-8 py-3 shadow-2xl rounded-full transform active:scale-75 transition-transform`}
+      className={`bg-ffffff inline-flex items-center gap-2 px-8 py-3 shadow-2xl rounded-full transform active:scale-75 transition-transform`}
     >
-      <span className={`text-8b3dff text-4xl font-extrabold font-reem mr-4`}>
+      <span
+        className={`text-8b3dff font-reem font-extrabold mr-4 text-xl lg:text-3xl`}
+      >
         Next
       </span>
       <svg
-        className={`rotate-90 cursor-pointer`}
+        className={`cursor-pointer rotate-90 h-10 w-10`}
         width="52"
         height="75"
         viewBox="0 0 52 75"

@@ -1,31 +1,29 @@
-import BtnNext from "../../../Components/UI/Button/BtnNextCarrousel/BtnNext";
-
 const CardsProjects = () => {
   return (
     <>
-      <div className="bg-ffffff block rounded-3xl lg:w-2/1 w-1/2 p-6">
-        <h5 class="text-8b3dff text-xl font-reem font-medium leading-tight mt-5 mb-2">
+      <div className="bg-ffffff block rounded-3xl p-6 w-96 my-10 2xl:my-0">
+        <h5 className="text-8b3dff text-xl font-reem font-medium leading-tight mt-5 mb-2">
           Parcours professionnel
           <div className="flex justify-start">
             <span className="absolute w-32 h-1 bg-8b3dff"></span>
           </div>
         </h5>
-        <p class="font-reem mb-2 text-0d1216">
+        <p className="font-reem mb-2 text-0d1216">
           Passionnée par le Développement & le Design, j’ai achevé ma première
-          année de formation, qui correspond à un bac+2. Je continue mon
+          ann2/3ée de formation, qui correspond à un bac+2. Je continue mon
           parcours en vue d’obtenir une licence UX / UI Designer pour renforcer
           mes compétences & mes connaissances. Pourquoi me suis-je reconvertie
           dans le monde digital ? Bonne question !
         </p>
       </div>
-      <div className="bg-ffffff block rounded-3xl w-1/2 p-6">
-        <h5 class="text-8b3dff text-xl font-reem font-medium leading-tight mt-5 mb-2">
+      <div className="bg-ffffff block rounded-3xl p-6 w-96 2xl:w-2/3">
+        <h5 className="text-8b3dff text-xl font-reem font-medium leading-tight mt-5 mb-2">
           Passion & Motivation
           <div className="flex justify-start">
             <span className="absolute w-32 h-1 bg-8b3dff"></span>
           </div>
         </h5>
-        <p class="font-reem mb-2 text-0d1216">
+        <p className="font-reem mb-2 text-0d1216">
           Il y a bien longtemps je naviguais sur des blogs que je trouvais très
           beaux. Je me suis toujours demandée comment peut-on créer un blog ou
           un site ? Cela m’a toujours fasciné d’identifier les objectifs et les
@@ -35,9 +33,6 @@ const CardsProjects = () => {
           celle-ci. Quelle réelle satisfaction de répondre aux besoins des
           clients et créer des sites de qualité.
         </p>
-      </div>
-      <div className=" flex justify-center items-center">
-        <BtnNext />
       </div>
     </>
   );

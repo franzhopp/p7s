@@ -46,7 +46,7 @@ const NavMobile = () => {
         <li className="text-center" aria-label="NavLink">
           <NavLink
             x-comp="NavLink"
-            className="text-8b3dff text-lg transition opacity-80 hover:opacity-100"
+            className="text-8b3dff text-lg transition hover:opacity-80"
             to="/"
           >
             Accueil
@@ -55,7 +55,7 @@ const NavMobile = () => {
         <li className="text-center" aria-label="NavLink">
           <NavLink
             x-comp="NavLink"
-            className="text-8b3dff text-lg transition opacity-80 hover:opacity-100"
+            className="text-8b3dff text-lg transition hover:opacity-80"
             to="/"
           >
             À propos
@@ -64,7 +64,7 @@ const NavMobile = () => {
         <li className="text-center" aria-label="NavLink">
           <NavLink
             x-comp="NavLink"
-            className="text-8b3dff text-lg transition opacity-80 hover:opacity-100"
+            className="text-8b3dff text-lg transition hover:opacity-80"
             to="/"
           >
             Projects
@@ -73,7 +73,7 @@ const NavMobile = () => {
         <li className="text-center" aria-label="NavLink">
           <NavLink
             x-comp="NavLink"
-            className="text-8b3dff text-lg transition opacity-80 hover:opacity-100"
+            className="text-8b3dff text-lg transition hover:opacity-80"
             to="/"
           >
             Contact

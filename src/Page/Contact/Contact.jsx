@@ -1,18 +1,18 @@
+import TitleContact from "../../Components/UI/Item/Title/TitleContact";
 import BtnCv from "../../Components/UI/Button/BtnAccessCv/BtnCv";
 import FormContact from "../../Components/UI/Form/FormContact";
-import TitleContact from "../../Components/UI/Item/Title/TitleContact";
 
 const Contact = () => {
   return (
     <section x-comp={`About`} className={`bg-ffffff`}>
-      <div className="">
+      <div>
         <div className={`py-24`}>
           <TitleContact />
           <div className={`flex justify-center`}>
             <BtnCv />
           </div>
           <div className={`flex justify-center py-16`}>
-            <div className={`w-1/2`}>
+            <div className={`w-96 2xl:w-1/4`}>
               <FormContact />
             </div>
           </div>

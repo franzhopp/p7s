@@ -1,10 +1,10 @@
 const Footer = () => {
   return (
-    <footer class=" bg-8b3dff">
-      <div class="relative mx-auto max-w-screen px-4 py-16 sm:px-6 lg:px-8 lg:pt-24">
-        <div class="lg:flex lg:items-end lg:justify-between">
+    <footer className=" bg-8b3dff">
+      <div className="relative mx-auto max-w-screen px-4 py-16 sm:px-6 lg:px-8 lg:pt-24">
+        <div className="lg:flex lg:items-end lg:justify-between">
           <div>
-            <div class="flex justify-center lg:justify-start">
+            <div className="flex justify-center lg:justify-start">
               <svg
                 className="cursor-pointer"
                 width="60"
@@ -24,54 +24,42 @@ const Footer = () => {
               </svg>
             </div>
 
-            <p class="mx-auto mt-6 max-w-md text-center leading-relaxed font-reem  text-ffffff lg:text-left">
+            <p className="mx-auto mt-6 max-w-md text-center leading-relaxed font-reem  text-ffffff lg:text-left">
               Ce portfolio a été imaginé et développé par l’auteur.
             </p>
           </div>
 
-          <ul class="mt-12 font-reem flex flex-wrap justify-center gap-6 md:gap-8 lg:mt-0 lg:justify-end lg:gap-12">
+          <ul className="mt-12 font-reem flex flex-wrap justify-center gap-6 md:gap-8 lg:mt-0 lg:justify-end lg:gap-12">
             <li>
-              <a
-                class="text-ffffff transition opacity-80 hover:opacity-100"
-                href="#"
-              >
+              <a className="text-ffffff transition hover:opacity-80" href="#">
                 {" "}
                 Accueil{" "}
               </a>
             </li>
 
             <li>
-              <a
-                class="text-ffffff  transition opacity-80 hover:opacity-100"
-                href="#"
-              >
+              <a className="text-ffffff  transition hover:opacity-80" href="#">
                 {" "}
                 À propos{" "}
               </a>
             </li>
 
             <li>
-              <a
-                class="text-ffffff  transition opacity-80 hover:opacity-100"
-                href="#"
-              >
+              <a className="text-ffffff  transition hover:opacity-80" href="#">
                 {" "}
                 Projects{" "}
               </a>
             </li>
 
             <li>
-              <a
-                class="text-ffffff  transition opacity-80 hover:opacity-100"
-                href="#"
-              >
+              <a className="text-ffffff  transition hover:opacity-80" href="#">
                 {" "}
                 Contact{" "}
               </a>
             </li>
           </ul>
         </div>
-        <p class="mt-12 text-center text-sm font-reem text-ffffff lg:text-right">
+        <p className="mt-12 text-center text-sm font-reem text-ffffff lg:text-right">
           Copyright &copy; 2024. All rights reserved.
         </p>
       </div>

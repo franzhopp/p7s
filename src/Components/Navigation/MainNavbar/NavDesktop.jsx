@@ -15,28 +15,28 @@ const NavDesktop = () => {
       <nav className="hidden gap-10 md:flex" aria-label="NavLink">
         <NavLink
           x-comp="NavLink"
-          className="text-8b3dff text-lg transition opacity-80 hover:opacity-100"
+          className="text-8b3dff text-lg transition hover:opacity-80"
           to="/"
         >
           Accueil
         </NavLink>
         <NavLink
           x-comp="NavLink"
-          className="text-8b3dff text-lg transition opacity-80 hover:opacity-100"
+          className="text-8b3dff text-lg transition hover:opacity-80"
           to="/"
         >
           À propos
         </NavLink>
         <NavLink
           x-comp="NavLink"
-          className="text-8b3dff text-lg transition opacity-80 hover:opacity-100"
+          className="text-8b3dff text-lg transition hover:opacity-80"
           to="/"
         >
           Projects
         </NavLink>
         <NavLink
           x-comp="NavLink"
-          className="text-8b3dff text-lg transition opacity-80 hover:opacity-100"
+          className="text-8b3dff text-lg transition hover:opacity-80"
           to="/"
         >
           Contact
