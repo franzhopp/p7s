@@ -23,7 +23,7 @@ const Cards = () => {
           dans le monde digital ? Très bonne question !
         </p>
       </div>
-      <div className={`bg-ffffff block rounded-3xl p-6 w-96 2xl:w-2/3`}>
+      <div className={`bg-ffffff block rounded-3xl p-6 w-96 3xl:w-2/3`}>
         <BsMoonStars className={`h-10 w-10`} />
         <h5
           className={`text-8b3dff text-xl font-reem font-medium leading-tight mt-5 mb-2`}

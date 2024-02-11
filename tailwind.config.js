@@ -18,6 +18,14 @@ export default {
         'ffffff': "#ffffff",
         '7f41dc': "#7f41dc",
       },
+      screens: {
+        'sm': '640px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1247px',
+        '2xl': '1536px',
+        '3xl': '1636px',
+      },
       fontFamily: {
         sans: [],
         'reem': ['Reem Kufi', 'sans-serif'],

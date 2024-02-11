@@ -18,7 +18,7 @@ const CardsProjects = () => {
           dans le monde digital ? Bonne question !
         </p>
       </div>
-      <div className={`bg-ffffff block rounded-3xl p-6 w-96 2xl:w-2/3`}>
+      <div className={`bg-ffffff block rounded-3xl p-6 w-96 3xl:w-2/3`}>
         <h5
           className={`text-8b3dff text-xl font-reem font-medium leading-tight mt-5 mb-2`}
         >
