@@ -16,8 +16,10 @@ const NavMobile = () => {
     setChangesBtnMenu(!changesBtnMenu);
   };
   return (
-    <header className="bg-0d1216 border-8b3dff border-b-4 fixed w-full top-0 left-0 shadow-xl py-3 z-50 lg:hidden">
-      <nav className="flex justify-between items-center">
+    <header
+      className={`bg-0d1216 border-8b3dff border-b-4 fixed w-full top-0 left-0 shadow-xl py-3 z-50 lg:hidden`}
+    >
+      <nav className={`flex justify-between items-center`}>
         <NavLink
           x-comp="NavLink"
           aria-label="LH Portfolio"
@@ -43,37 +45,37 @@ const NavMobile = () => {
         aria-label="MainLink"
         className={`font-reem p-10 ${isOpenFromClickMenu ? "block" : "hidden"}`}
       >
-        <li className="text-center pb-2" aria-label="NavLink">
+        <li className={`text-center pb-2`} aria-label="NavLink">
           <NavLink
             x-comp="NavLink"
-            className="text-8b3dff text-lg transition hover:opacity-80"
+            className={`text-8b3dff text-lg transition hover:opacity-80`}
             to="/"
           >
             Accueil
           </NavLink>
         </li>
-        <li className="text-center pb-2" aria-label="NavLink">
+        <li className={`text-center pb-2`} aria-label="NavLink">
           <NavLink
             x-comp="NavLink"
-            className="text-8b3dff text-lg transition hover:opacity-80"
+            className={`text-8b3dff text-lg transition hover:opacity-80`}
             to="/"
           >
             À propos
           </NavLink>
         </li>
-        <li className="text-center pb-2" aria-label="NavLink">
+        <li className={`text-center pb-2`} aria-label="NavLink">
           <NavLink
             x-comp="NavLink"
-            className="text-8b3dff text-lg transition hover:opacity-80"
+            className={`text-8b3dff text-lg transition hover:opacity-80`}
             to="/"
           >
-            Projects
+            Projets
           </NavLink>
         </li>
-        <li className="text-center pb-2" aria-label="NavLink">
+        <li className={`text-center pb-2`} aria-label="NavLink">
           <NavLink
             x-comp="NavLink"
-            className="text-8b3dff text-lg transition hover:opacity-80"
+            className={`text-8b3dff text-lg transition hover:opacity-80`}
             to="/"
           >
             Contact
