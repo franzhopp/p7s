@@ -1,6 +1,6 @@
 import BtnNext from "../../Components/UI/Button/BtnNextCarrousel/BtnNext";
 import TitleProject from "../../Components/UI/Item/Title/TitleProject";
-import CardsProjects from "./Cards/CardsProjects";
+import MainCarousel from "./Carousel/MainCarousel";
 
 const Projects = () => {
   return (
@@ -9,10 +9,7 @@ const Projects = () => {
       <div
         className={`flex flex-wrap justify-center space-x-0 2xl:space-x-20 px-16`}
       >
-        <CardsProjects />
-      </div>
-      <div className={`flex justify-center items-center pt-10`}>
-        <BtnNext />
+        <MainCarousel />
       </div>
     </section>
   );

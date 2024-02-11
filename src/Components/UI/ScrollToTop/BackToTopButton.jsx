@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { RiArrowUpFill } from "react-icons/ri";
 
 const BackToTopButton = () => {
   const [BackToTopButton, setBackToTopButton] = useState(false);
@@ -23,9 +22,8 @@ const BackToTopButton = () => {
       {BackToTopButton && (
         <button>
           <div
-            data-aos="fade-right"
             onClick={scrollUp}
-            className="fixed bottom-8 right-5 shadow-xl rounded-full z-50"
+            className={`fixed bottom-8 right-5 shadow-xl rounded-full z-50`}
           >
             <div
               className={`bg-ffffff p-4 h-53 h-54 rounded-full shadow-xl transform active:scale-75 transition-transform`}
