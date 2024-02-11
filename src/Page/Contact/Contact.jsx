@@ -1,7 +1,7 @@
-import TitleContact from "../../Components/UI/Item/Title/TitleContact";
-import BtnCv from "../../Components/UI/Button/BtnAccessCv/BtnCv";
-import FormContact from "../../Components/UI/Form/FormContact";
 import BackToTopButton from "../../Components/UI/ScrollToTop/BackToTopButton";
+import TitleContact from "../../Components/UI/Item/Title/TitleContact";
+import FormContact from "../../Components/UI/Form/FormContact";
+import BtnCv from "../../Components/UI/Button/BtnAccessCv/BtnCv";
 
 const Contact = () => {
   return (
