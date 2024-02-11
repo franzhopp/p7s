@@ -29,6 +29,7 @@ const TitleHome = () => {
       >
         <ArrowRefresHome />
       </div>
+     
     </section>
   );
 };
