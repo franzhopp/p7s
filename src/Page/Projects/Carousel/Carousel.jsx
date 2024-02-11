@@ -62,6 +62,17 @@ export default function Carousel({ children: slides }) {
           </div>
         </button>
       </div>
+      <div className={`absolute bottom-4 right-0 left-0`}>
+        <div className={`flex justify-center items-center gap-2`}>
+          {slides.map((_, i) => (
+            <div
+              className={`bg-ffffff transition-all rounded-full w-3 h-3 ${
+                curr === i ? "p-4" : "bg-opacity-50"
+              }`}
+            />
+          ))}
+        </div>
+      </div>
     </div>
   );
 }

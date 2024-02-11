@@ -13,10 +13,10 @@ const slides = [
 
 export default function MainCarousel() {
   return (
-    <div className={`flex justify-center py-10 h-96 w-96 3xl:w-2/3`}>
+    <div className={`flex justify-center py-10 h-96 w-96`}>
       <Carousel>
         {slides.map((s) => (
-          <img src={s} className={`rounded-xl`} />
+          <img src={s} />
         ))}
       </Carousel>
     </div>
