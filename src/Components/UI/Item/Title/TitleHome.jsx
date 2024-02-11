@@ -4,6 +4,9 @@ import { TiSocialLinkedinCircular } from "react-icons/ti";
 import { TiSocialGithubCircular } from "react-icons/ti";
 
 const TitleHome = () => {
+  const RefreshPage = () => {
+    window.location.reload(false);
+  };
   return (
     <section x-comp={`About`} className={`bg-0d1216`}>
       <div className={`flex w-full items-center px-5 sm:px-16`}>
@@ -20,7 +23,10 @@ const TitleHome = () => {
           </div>
         </div>
       </div>
-      <div className={`bg-0d1216 flex justify-end pb-5 pt-60`}>
+      <div
+        onClick={RefreshPage}
+        className={`bg-0d1216 flex justify-end pb-5 pt-60`}
+      >
         <ArrowRefresHome />
       </div>
     </section>
