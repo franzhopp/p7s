@@ -43,7 +43,7 @@ const NavMobile = () => {
         aria-label="MainLink"
         className={`font-reem p-10 ${isOpenFromClickMenu ? "block" : "hidden"}`}
       >
-        <li className="text-center" aria-label="NavLink">
+        <li className="text-center pb-2" aria-label="NavLink">
           <NavLink
             x-comp="NavLink"
             className="text-8b3dff text-lg transition hover:opacity-80"
@@ -52,7 +52,7 @@ const NavMobile = () => {
             Accueil
           </NavLink>
         </li>
-        <li className="text-center" aria-label="NavLink">
+        <li className="text-center pb-2" aria-label="NavLink">
           <NavLink
             x-comp="NavLink"
             className="text-8b3dff text-lg transition hover:opacity-80"
@@ -61,7 +61,7 @@ const NavMobile = () => {
             À propos
           </NavLink>
         </li>
-        <li className="text-center" aria-label="NavLink">
+        <li className="text-center pb-2" aria-label="NavLink">
           <NavLink
             x-comp="NavLink"
             className="text-8b3dff text-lg transition hover:opacity-80"
@@ -70,7 +70,7 @@ const NavMobile = () => {
             Projects
           </NavLink>
         </li>
-        <li className="text-center" aria-label="NavLink">
+        <li className="text-center pb-2" aria-label="NavLink">
           <NavLink
             x-comp="NavLink"
             className="text-8b3dff text-lg transition hover:opacity-80"
