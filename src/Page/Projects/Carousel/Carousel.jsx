@@ -9,7 +9,7 @@ export default function Carousel({ children: slides }) {
     setCurr((curr) => (curr === slides.length - 1 ? 0 : curr + 1));
   };
   return (
-    <div className={`relative overflow-hidden rounded-xl shadow-xl`}>
+    <div x-comp={`Carousel`} className={`relative overflow-hidden rounded-xl shadow-xl`}>
       <div
         className={`flex transition-transform ease-out duration-500`}
         style={{ transform: `translateX(-${curr * 100}%)` }}
@@ -62,7 +62,10 @@ export default function Carousel({ children: slides }) {
           </div>
         </button>
       </div>
-      <div className={`absolute bottom-4 right-0 left-0`}>
+      <div
+        x-comp={`BtnDisplayPrevNext`}
+        className={`absolute bottom-4 right-0 left-0`}
+      >
         <div className={`flex justify-center items-center gap-2`}>
           {slides.map((_, i) => (
             <div
