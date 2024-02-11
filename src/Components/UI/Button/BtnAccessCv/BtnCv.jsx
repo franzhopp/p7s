@@ -1,7 +1,7 @@
 const BtnCv = () => {
   return (
     <button
-      className={`bg-8b3dff inline-flex items-center shadow-2xl rounded-full gap-2 px-8 py-3 transform active:scale-75 transition-transform`}
+      className={`bg-8b3dff inline-flex items-center shadow-xl rounded-full gap-2 px-8 py-3 transform active:scale-75 transition-transform`}
     >
       <span
         className={`text-ffffff font-reem font-extrabold mr-1 text-xl lg:text-3xl`}

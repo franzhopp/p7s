@@ -10,7 +10,7 @@ const CardsProjects = () => {
             <span className={`bg-8b3dff absolute w-32 h-1`}></span>
           </div>
         </h5>
-        <p className={`text-0d1216 font-reem mb-2`}>
+        <p className={`text-0d1216 font-reem mb-2 w-80 lg:w-full`}>
           Passionnée par le Développement & le Design, j’ai achevé ma première
           ann2/3ée de formation, qui correspond à un bac+2. Je continue mon
           parcours en vue d’obtenir une licence UX / UI Designer pour renforcer
@@ -27,7 +27,7 @@ const CardsProjects = () => {
             <span className={`bg-8b3dff absolute w-32 h-1`}></span>
           </div>
         </h5>
-        <p className={`text-0d1216 font-reem mb-2`}>
+        <p className={`text-0d1216 font-reem mb-2 w-80 lg:w-full`}>
           Il y a bien longtemps je naviguais sur des blogs que je trouvais très
           beaux. Je me suis toujours demandée comment peut-on créer un blog ou
           un site ? Cela m’a toujours fasciné d’identifier les objectifs et les

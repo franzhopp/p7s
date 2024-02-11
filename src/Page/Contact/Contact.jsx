@@ -8,7 +8,7 @@ const Contact = () => {
       <div>
         <div className={`py-24`}>
           <TitleContact />
-          <div className={`flex justify-center`}>
+          <div className={`flex justify-center py-10 2xl:py-0`}>
             <BtnCv />
           </div>
           <div className={`flex justify-center py-16`}>

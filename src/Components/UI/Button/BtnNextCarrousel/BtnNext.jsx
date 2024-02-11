@@ -1,7 +1,7 @@
 const BtnNext = () => {
   return (
     <button
-      className={`bg-ffffff inline-flex items-center gap-2 px-8 py-3 shadow-2xl rounded-full transform active:scale-75 transition-transform`}
+      className={`bg-ffffff inline-flex items-center gap-2 px-8 py-3 shadow-xl rounded-full transform active:scale-75 transition-transform`}
     >
       <span
         className={`text-8b3dff font-reem font-extrabold mr-4 text-xl lg:text-3xl`}

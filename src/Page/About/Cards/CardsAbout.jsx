@@ -13,12 +13,14 @@ const Cards = () => {
             <span className={`bg-8b3dff absolute w-32 h-1`}></span>
           </div>
         </h5>
-        <p className={`text-0d1216 font-reem mb-2`}>
+        <p
+          className={`text-0d1216 font-reem mb-2 w-80 lg:w-full text-base lg:text-xl`}
+        >
           Passionnée par le Développement & le Design, j’ai achevé ma première
           année de formation, qui correspond à un bac+2. Je continue mon
           parcours en vue d’obtenir une licence UX / UI Designer pour renforcer
           mes compétences & mes connaissances. Pourquoi me suis-je reconvertie
-          dans le monde digital ? Bonne question !
+          dans le monde digital ? Très bonne question !
         </p>
       </div>
       <div className={`bg-ffffff block rounded-3xl p-6 w-96 2xl:w-2/3`}>
@@ -31,7 +33,9 @@ const Cards = () => {
             <span className={`bg-8b3dff absolute w-32 h-1`}></span>
           </div>
         </h5>
-        <p className={`font-reem mb-2 text-0d1216`}>
+        <p
+          className={`text-0d1216 font-reem mb-2 w-80 lg:w-full text-base lg:text-xl`}
+        >
           Il y a bien longtemps je naviguais sur des blogs que je trouvais très
           beaux. Je me suis toujours demandée comment peut-on créer un blog ou
           un site ? Cela m’a toujours fasciné d’identifier les objectifs et les

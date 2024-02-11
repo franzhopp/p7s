@@ -16,12 +16,12 @@ const NavMobile = () => {
     setChangesBtnMenu(!changesBtnMenu);
   };
   return (
-    <header className="bg-0d1216 py-3 fixed w-full top-0 left-0 lg:hidden z-50">
+    <header className="bg-0d1216 border-8b3dff border-b-4  fixed w-full top-0 left-0 shadow-xl py-3 z-50 lg:hidden">
       <nav className="flex justify-between items-center">
         <NavLink
           x-comp="NavLink"
           aria-label="LH Portfolio"
-          className="ml-2"
+          className="ml-3"
           to="/"
         >
           <LogoNav />

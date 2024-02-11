@@ -2,7 +2,7 @@ import BtnSend from "../Button/BtnSend/BtnSend";
 
 const FormContact = () => {
   return (
-    <form className={`bg-gray-200 rounded-3xl shadow-lg p-10`}>
+    <form className={`bg-gray-200 rounded-3xl shadow-xl p-10`}>
       <div className={`space-y-4`}>
         <div className={`pb-5`}>
           <input
