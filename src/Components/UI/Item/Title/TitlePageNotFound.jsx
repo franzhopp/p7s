@@ -1,3 +1,5 @@
+import BtnReturnHome from "../../Button/BtnHome/BtnReturnHome";
+
 const TitlePageNotFound = () => {
   return (
     <div
@@ -8,7 +10,9 @@ const TitlePageNotFound = () => {
         <h1 className={`text-8b3dff font-reem text-5xl lg:text-8xl`}>
           Mauvais chemin
         </h1>
-        <div className={`flex justify-center mt-5`}></div>
+        <div className={`flex justify-center mt-5`}>
+          <BtnReturnHome />
+        </div>
       </div>
     </div>
   );
