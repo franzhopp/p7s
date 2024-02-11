@@ -1,6 +1,7 @@
 import TitleContact from "../../Components/UI/Item/Title/TitleContact";
 import BtnCv from "../../Components/UI/Button/BtnAccessCv/BtnCv";
 import FormContact from "../../Components/UI/Form/FormContact";
+import BackToTopButton from "../../Components/UI/ScrollToTop/BackToTopButton";
 
 const Contact = () => {
   return (
@@ -18,6 +19,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <BackToTopButton />
     </section>
   );
 };

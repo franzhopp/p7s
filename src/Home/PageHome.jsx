@@ -5,7 +5,6 @@ import About from "../Page/About/About";
 import Projects from "../Page/Projects/Project";
 import Contact from "../Page/Contact/Contact";
 import Footer from "../Components/Footer/Footer";
-import BackToTopButton from "../Components/UI/ScrollToTop/BackToTopButton";
 
 const Homepage = () => {
   return (
@@ -17,7 +16,6 @@ const Homepage = () => {
       <About />
       <Projects />
       <Contact />
-      <BackToTopButton />
       <Footer />
     </main>
   );
