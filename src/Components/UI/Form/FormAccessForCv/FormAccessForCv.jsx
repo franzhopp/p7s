@@ -12,7 +12,7 @@ const FormAccessForCv = () => {
     if (code === "csr452-6570-e591") {
       setAuthentificated(true);
     } else {
-      alert("Error");
+      alert("Le code est incorrect, veuillez réessayer.");
     }
   };
   return (
