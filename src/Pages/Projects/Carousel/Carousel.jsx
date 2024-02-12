@@ -36,7 +36,7 @@ export default function Carousel({
             <div>
               <div
                 onClick={prev}
-                className={`bg-ffffff p-4 h-53 h-54 rounded-full transform active:scale-75 transition-transform`}
+                className={`bg-ffffff p-4 h-53 h-53 rounded-full transform active:scale-75 transition-transform`}
               >
                 <svg
                   className={`cursor-pointer rotate-180 h-5 w-5`}
@@ -57,7 +57,7 @@ export default function Carousel({
           <button x-comp={`BtnRight`}>
             <div>
               <div
-                className={`bg-ffffff p-4 h-53 h-54 rounded-full transform active:scale-75 transition-transform`}
+                className={`bg-ffffff p-4 h-53 h-53 rounded-full transform active:scale-75 transition-transform`}
               >
                 <svg
                   onClick={next}

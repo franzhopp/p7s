@@ -13,7 +13,7 @@ const slides = [
 
 export default function MainCarousel() {
   return (
-    <div className={`flex justify-center py-10`}>
+    <div className={`flex justify-center pt-10`}>
       <Carousel autoSlide={true} autoSlideInterval={1000}>
         {slides.map((s) => (
           <img src={s} />

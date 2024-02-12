@@ -3,7 +3,7 @@ import { BsMoonStars } from "react-icons/bs";
 const Cards = () => {
   return (
     <>
-      <div className={`bg-ffffff block rounded-3xl p-6 w-96 my-10 2xl:my-0`}>
+      <div className={`bg-ffffff block rounded-3xl p-6 w-96 mb-10 2xl:mb-0`}>
         <BsMoonStars className={`h-10 w-10`} />
         <h5
           className={`text-8b3dff text-xl font-reem font-medium leading-tight mt-5 mb-2`}

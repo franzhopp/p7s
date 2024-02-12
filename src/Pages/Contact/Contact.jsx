@@ -6,9 +6,9 @@ const Contact = () => {
   return (
     <section x-comp={`About`} className={`bg-ffffff`}>
       <div>
-        <div className={`py-20`}>
+        <div className={`py-16`}>
           <TitleContact />
-          <div className={`flex justify-center py-20`}>
+          <div className={`flex justify-center py-16`}>
             <BtnCv />
           </div>
           <div className={`flex justify-center`}>

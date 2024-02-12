@@ -1,6 +1,6 @@
 const TitleProject = () => {
   return (
-    <div className={`bg-8b3dff flex flex-col justify-center text-center h-36 px-16`}>
+    <div className={`bg-8b3dff flex flex-col justify-center text-center px-16`}>
       <h1 className={`text-ffffff font-reem text-3xl lg:text-5xl`}>
         Mes projets
       </h1>
