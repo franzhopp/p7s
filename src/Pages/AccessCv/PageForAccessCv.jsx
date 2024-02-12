@@ -13,8 +13,8 @@ const PageForAccessCv = () => {
       <HeaderHome />
       <div>
         <TitleAccessForCv />
-        <div className={`flex flex-col justify-center py-40`}>
-          <div className={`flex justify-center mb-36`}>
+        <div className={`flex flex-col justify-center`}>
+          <div className={`flex justify-center mb-72`}>
             <BtnReturnHome />
           </div>
         </div>

@@ -18,24 +18,27 @@ const FormAccessForCv = () => {
   return (
     <>
       {!authentificated ? (
-        <form
-          onSubmit={handleSubmit}
-          className={`bg-ffffff rounded-3xl shadow-xl p-10`}
-        >
-          <div className={`pb-5`}>
-            <input
-              type="password"
-              value={code}
-              onChange={handleCodeChange}
-              className={`bg-gray-300 rounded-3xl w-full p-4 outline-none font-reem text-sm`}
-              placeholder="Code secret"
-            />
-          </div>
-
-          <button type="submit" className="flex justify-center">
-            <BtnSendCv />
-          </button>
-        </form>
+        <div className="flex justify-center">
+          <form
+            onSubmit={handleSubmit}
+            className={`bg-ffffff rounded-3xl shadow-xl p-10`}
+          >
+            <div className={`pb-5`}>
+              <input
+                type="password"
+                value={code}
+                onChange={handleCodeChange}
+                className={`bg-gray-300 rounded-3xl w-full p-4 outline-none font-reem text-sm`}
+                placeholder="Code secret"
+              />
+            </div>
+            <div className="flex justify-center">
+              <button type={`submit`}>
+                <BtnSendCv />
+              </button>
+            </div>
+          </form>
+        </div>
       ) : (
         <div className={`flex flex-col justify-center`}>
           <h1
