@@ -10,7 +10,7 @@ const TitlePageNotFound = () => {
         <h1 className={`text-8b3dff font-reem text-5xl lg:text-8xl`}>
           Mauvais chemin
         </h1>
-        <div className={`flex justify-center mt-5`}>
+        <div className={`flex justify-center mt-20`}>
           <BtnReturnHome />
         </div>
       </div>

@@ -42,8 +42,8 @@ const Cards = () => {
           besoins des utilisateurs afin d’améliorer leur parcours sur un site
           web, que ce soit une application mobile ou tout autre dispositif
           numérique. J’aime concevoir l’identité visuelle, et développer
-          celle-ci. Quelle réelle satisfaction de répondre aux besoins des
-          clients et créer des sites de qualité.
+          celle-ci avec React (mon amour). Quelle réelle satisfaction de répondre aux
+          besoins des clients et créer des sites de qualité.
         </p>
       </div>
     </>

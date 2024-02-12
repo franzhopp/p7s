@@ -1,20 +1,59 @@
+import { useState } from "react";
 import BtnSendCv from "../../Button/BtnSendCv/BtnSendCv";
 
 const FormAccessForCv = () => {
+  const [code, setCode] = useState("");
+  const [authentificated, setAuthentificated] = useState(false);
+  const handleCodeChange = (e) => {
+    setCode(e.target.value);
+  };
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (code === "csr452-6570-e591") {
+      setAuthentificated(true);
+    } else {
+      alert("Error");
+    }
+  };
   return (
-    <form className={`bg-ffffff rounded-3xl shadow-xl p-10`}>
-      <div className={`space-y-4`}>
-        <div className={`pb-5`}>
-          <input
-            className={`bg-gray-300 rounded-3xl w-full p-4 outline-none font-reem text-sm`}
-            placeholder="Code secret"
-          />
+    <>
+      {!authentificated ? (
+        <form
+          onSubmit={handleSubmit}
+          className={`bg-ffffff rounded-3xl shadow-xl p-10`}
+        >
+          <div className={`pb-5`}>
+            <input
+              type="password"
+              value={code}
+              onChange={handleCodeChange}
+              className={`bg-gray-300 rounded-3xl w-full p-4 outline-none font-reem text-sm`}
+              placeholder="Code secret"
+            />
+          </div>
+
+          <button type="submit" className="flex justify-center">
+            <BtnSendCv />
+          </button>
+        </form>
+      ) : (
+        <div className={`flex flex-col justify-center`}>
+          <h1
+            className={`text-ffffff font-reem text-center text-2xl lg:text-5xl`}
+          >
+            Accès autorisé !
+          </h1>
+          <a
+            href="/resume/CV.pdf"
+            className={`text-ffffff underline font-reem font-extrabold text-center  text-2xl lg:text-3xl mt-10`}
+            download
+          >
+            {" "}
+            Télécharger le CV
+          </a>
         </div>
-      </div>
-      <div className="flex justify-center py-5">
-        <BtnSendCv />
-      </div>
-    </form>
+      )}
+    </>
   );
 };
 
