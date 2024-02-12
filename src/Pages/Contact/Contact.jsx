@@ -1,5 +1,4 @@
 import TitleContact from "../../Components/UI/Item/Title/TitleContact";
-import BackToTopButton from "../../Components/UI/ScrollToTop/BackToTopButton";
 import FormContact from "../../Components/UI/Form/FormContact";
 import BtnCv from "../../Components/UI/Button/BtnAccessCv/BtnCv";
 
@@ -7,9 +6,9 @@ const Contact = () => {
   return (
     <section x-comp={`About`} className={`bg-ffffff`}>
       <div>
-        <div className={`py-24`}>
+        <div className={`py-20`}>
           <TitleContact />
-          <div className={`flex justify-center pb-24`}>
+          <div className={`flex justify-center py-20`}>
             <BtnCv />
           </div>
           <div className={`flex justify-center`}>
@@ -19,7 +18,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <BackToTopButton />
     </section>
   );
 };

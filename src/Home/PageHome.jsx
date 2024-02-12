@@ -5,10 +5,12 @@ import About from "../Pages/About/About";
 import Projects from "../Pages/Projects/Project";
 import Contact from "../Pages/Contact/Contact";
 import Footer from "../Components/Footer/Footer";
+import BackToTopButton from "../Components/UI/ScrollToTop/BackToTopButton.jsx";
 
 const Homepage = () => {
   return (
     <main className={`flex flex-1 flex-col`}>
+      <BackToTopButton />
       <HeaderHome />
       <div className={`bg-0d1216 h-72`}></div>
       <TitleHome />

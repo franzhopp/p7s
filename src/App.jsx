@@ -8,8 +8,8 @@ const App = () => {
     <Router>
       <ScrollToTop />
       <Routes>
-        <Route path="/" element={<Homepage />} />
         <Route path="*" element={<PageNotFound />} />
+        <Route path="/" element={<Homepage />} />
       </Routes>
     </Router>
   );

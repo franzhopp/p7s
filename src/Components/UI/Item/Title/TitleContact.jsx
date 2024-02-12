@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const TitleContact = () => {
   return (
-    <div className={`flex flex-col text-center h-36 px-16`}>
+    <div className={`flex flex-col text-center px-16`}>
       <h1 className={`text-0d1216 font-reem text-3xl lg:text-5xl`}>
         Contactez-moi
       </h1>
