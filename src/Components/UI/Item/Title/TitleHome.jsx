@@ -23,7 +23,7 @@ const TitleHome = () => {
       </div>
       <div
         onClick={RefreshPage}
-        className={`bg-0d1216 flex justify-end pb-5 pt-60`}
+        className={`bg-0d1216 flex justify-end pb-8 pt-60`}
       >
         <ArrowRefresHome />
       </div>

@@ -26,7 +26,7 @@ const BackToTopButton = () => {
             className={`fixed bottom-8 right-5 shadow-xl rounded-full z-50`}
           >
             <div
-              className={`bg-ffffff p-4 h-53 h-53 rounded-full shadow-xl transform active:scale-75 transition-transform`}
+              className={`bg-ffffff p-4 rounded-full shadow-xl transform active:scale-75 transition-transform`}
             >
               <svg
                 className={`cursor-pointer h-5 w-5`}

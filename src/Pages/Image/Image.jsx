@@ -1,4 +1,4 @@
-import "./Image.css";
+import "./Styles/Image.css";
 
 const Picture = () => {
   return (

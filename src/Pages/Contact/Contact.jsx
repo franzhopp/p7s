@@ -1,6 +1,7 @@
 import TitleContact from "../../Components/UI/Item/Title/TitleContact";
-import FormContact from "../../Components/UI/Form/FormContact";
+import FormContact from "../../Components/UI/Form/FormContact/FormContact";
 import BtnCv from "../../Components/UI/Button/BtnAccessCv/BtnCv";
+import { NavLink } from "react-router-dom";
 
 const Contact = () => {
   return (
@@ -8,9 +9,9 @@ const Contact = () => {
       <div>
         <div className={`py-16`}>
           <TitleContact />
-          <div className={`flex justify-center py-16`}>
+          <NavLink to={`/access`} className={`flex justify-center py-16`}>
             <BtnCv />
-          </div>
+          </NavLink>
           <div className={`flex justify-center`}>
             <div className={`w-96 2xl:w-1/4`}>
               <FormContact />

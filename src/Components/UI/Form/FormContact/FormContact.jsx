@@ -1,4 +1,4 @@
-import BtnSend from "../Button/BtnSend/BtnSend";
+import BtnSend from "../../Button/BtnSend/BtnSend";
 
 const FormContact = () => {
   return (

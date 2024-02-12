@@ -4,7 +4,7 @@ const Cards = () => {
   return (
     <>
       <div className={`bg-ffffff block rounded-3xl p-6 w-96 mb-10 2xl:mb-0`}>
-        <BsMoonStars className={`h-10 w-10`} />
+        <BsMoonStars className={`h-12 w-12`} />
         <h5
           className={`text-8b3dff text-xl font-reem font-medium leading-tight mt-5 mb-2`}
         >
@@ -24,7 +24,7 @@ const Cards = () => {
         </p>
       </div>
       <div className={`bg-ffffff block rounded-3xl p-6 w-96 3xl:w-2/3`}>
-        <BsMoonStars className={`h-10 w-10`} />
+        <BsMoonStars className={`h-12 w-12`} />
         <h5
           className={`text-8b3dff text-xl font-reem font-medium leading-tight mt-5 mb-2`}
         >
