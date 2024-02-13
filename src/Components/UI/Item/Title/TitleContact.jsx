@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 
 const TitleContact = () => {
   return (
-    <div id="contact" className={`flex flex-col text-center px-16 py-10`}>
+    <div className={`flex flex-col text-center px-16`}>
       <div data-aos="zoom-out-right">
         <h1 className={`text-0d1216 font-reem text-3xl lg:text-5xl`}>
           Contactez-moi

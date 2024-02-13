@@ -8,6 +8,7 @@ const Picture = () => {
           className={`louisaimage bg-cover bg-no-repeat lg:bg-left bg-center h-72`}
         ></div>
       </section>
+      <div id="about"></div>
     </>
   );
 };

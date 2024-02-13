@@ -51,9 +51,9 @@ const Cards = () => {
           développer celle-ci avec React (ce framework est absolument mon coup
           de cœur inexplicable), j’en apprends de jour en jour, je suis
           impressionnée de voir que les languages informatiques de base ; HTML5,
-          CSS3, JavaScript ont des ressources bien plus vastes. Ça me passionne.
-          C’est une grande satisfaction également de répondre aux besoins des
-          clients à travers cette passion, & créer des sites de qualité.
+          CSS3, JavaScript ont des ressources bien plus vastes. Cela me
+          passionne. C’est avec une grande satisfaction de répondre aux besoins
+          des clients à travers cette passion, & créer des sites de qualité.
         </p>
       </div>
     </>
