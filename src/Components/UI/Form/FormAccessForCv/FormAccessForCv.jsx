@@ -29,9 +29,8 @@ const FormAccessForCv = () => {
             <div className={`pb-5`}>
               <div className="text-center pb-5">
                 <label
-                  data-aos="zoom-out-right"
                   htmlFor="AccessCv"
-                  className={`text-8b3dff font-reem text-base`}
+                  className={`text-8b3dff font-jacques`}
                 >
                   Entrez le code pour accéder au CV
                 </label>
@@ -54,7 +53,7 @@ const FormAccessForCv = () => {
       ) : (
         <div className={`flex flex-col justify-center py-20`}>
           <h1
-            className={`text-ffffff font-reem text-center text-2xl lg:text-5xl`}
+            className={`text-ffffff font-jacques text-center text-2xl lg:text-5xl`}
           >
             Accès autorisé !
           </h1>

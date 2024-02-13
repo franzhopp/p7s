@@ -1,10 +1,7 @@
-import Footer from "../../Components/Footer/Footer";
 import HeaderHome from "../../Components/Navigation/Header/HeaderHome";
-import BtnReturnHome from "../../Components/UI/Button/BtnHome/BtnReturnHome";
-import FormAccessForCv from "../../Components/UI/Form/FormAccessForCv/FormAccessForCv";
-import LogoFooter from "../../Components/UI/Item/Svg/LogoFooter";
 import TitleAccessForCv from "../../Components/UI/Item/Title/TitleAccessForCv";
-
+import BtnReturnHome from "../../Components/UI/Button/BtnHome/BtnReturnHome";
+import Footer from "../../Components/Footer/Footer";
 import "./Styles/Image.css";
 
 const PageForAccessCv = () => {
