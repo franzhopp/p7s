@@ -37,13 +37,14 @@ const Cards = () => {
           className={`text-0d1216 font-reem mb-2 w-80 lg:w-full text-base lg:text-xl`}
         >
           Il y a bien longtemps je naviguais sur des blogs que je trouvais très
-          beaux. Je me suis toujours demandée comment peut-on créer un blog ou
-          un site ? Cela m’a toujours fasciné d’identifier les objectifs et les
-          besoins des utilisateurs afin d’améliorer leur parcours sur un site
-          web, que ce soit une application mobile ou tout autre dispositif
-          numérique. J’aime concevoir l’identité visuelle, et développer
-          celle-ci avec React (mon amour). Quelle réelle satisfaction de
-          répondre aux besoins des clients et créer des sites de qualité.
+          beaux. Je me suis toujours demandée comment puis-je créer un blog ou
+          un site ? Cela m’a toujours fasciné de comprendre & d’identifier les
+          objectifs, les besoins des utilisateurs afin d’améliorer leur parcours
+          sur un site web, que ce soit une application mobile ou tout autre
+          dispositif numérique. J’aime concevoir l’identité visuelle, &
+          développer celle-ci avec React (ce framework est absolument mon coup
+          de cœur inexplicable). C'est une grande satisfaction de répondre aux
+          besoins des clients et créer des sites de qualité.
         </p>
       </div>
     </>
