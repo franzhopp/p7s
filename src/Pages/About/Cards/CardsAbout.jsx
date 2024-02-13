@@ -50,10 +50,10 @@ const Cards = () => {
           dispositif numérique. J’aime concevoir l’identité visuelle, &
           développer celle-ci avec React (ce framework est absolument mon coup
           de cœur inexplicable), j’en apprends de jour en jour, je suis
-          impressionnée de voir que les languages informatiques de base ; HTML5,
+          impressionnée de voir que les languages informatiques tels que HTML5,
           CSS3, JavaScript ont des ressources bien plus vastes. Cela me
-          passionne. C’est avec une grande satisfaction de répondre aux besoins
-          des clients à travers cette passion, & créer des sites de qualité.
+          passionne, c’est avec une grande satisfaction de répondre aux besoins
+          des clients à travers cette passion, & de créer des sites de qualité.
         </p>
       </div>
     </>

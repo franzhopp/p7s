@@ -13,6 +13,9 @@ const FormAccessForCv = () => {
       setAuthentificated(true);
     } else {
       alert("Le code est incorrect, veuillez réessayer.");
+      setInterval(() => {
+        window.location.reload();
+      }, 1000);
     }
   };
   return (
@@ -40,7 +43,7 @@ const FormAccessForCv = () => {
           </form>
         </div>
       ) : (
-        <div className={`flex flex-col justify-center`}>
+        <div className={`flex flex-col justify-center py-20`}>
           <h1
             className={`text-ffffff font-reem text-center text-2xl lg:text-5xl`}
           >
