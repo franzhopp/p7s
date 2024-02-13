@@ -16,7 +16,9 @@ const TitleHome = () => {
             Design Arbitrator of Exalted Things
           </h1>
           <div className={`flex justify-start mt-5`}>
-            <TiSocialInstagramCircular className={`h-20 w-20 text-8b3dff`} />
+            <a href="https://instagram.com/lfrnz.dev/">
+              <TiSocialInstagramCircular className={`h-20 w-20 text-8b3dff`} />
+            </a>
             <TiSocialLinkedinCircular className={`h-20 w-20 text-8b3dff`} />
           </div>
         </div>

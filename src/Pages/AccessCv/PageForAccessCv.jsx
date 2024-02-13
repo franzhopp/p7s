@@ -9,7 +9,7 @@ import "./Styles/Image.css";
 
 const PageForAccessCv = () => {
   return (
-    <div className={`louisaimageblur`}>
+    <div className={`bg-0d1216`}>
       <HeaderHome />
       <div>
         <TitleAccessForCv />

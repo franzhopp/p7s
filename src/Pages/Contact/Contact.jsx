@@ -1,7 +1,7 @@
+import { NavLink } from "react-router-dom";
 import TitleContact from "../../Components/UI/Item/Title/TitleContact";
 import FormContact from "../../Components/UI/Form/FormContact/FormContact";
 import BtnCv from "../../Components/UI/Button/BtnAccessCv/BtnCv";
-import { NavLink } from "react-router-dom";
 
 const Contact = () => {
   return (

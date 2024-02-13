@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 import LogoNav from "../../UI/Item/Svg/LogoNavMobile";
 import BtnOpen from "../../UI/Button/BtnNavMobile/BtnOpen";
 import BtnClose from "../../UI/Button/BtnNavMobile/BtnClose";
@@ -8,9 +9,11 @@ const NavMobile = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [changesBtnMenu, setChangesBtnMenu] = useState(false);
   const [isOpenFromClickMenu, setIsOpenFromClickMenu] = useState(false);
-  const openChangesBtnMenuMobile = () => {
+  const [isMenuClose, setIsMenuClose] = useState(false);
+  const handleMenuMobile = () => {
     setToggleMenu(!toggleMenu);
     setIsOpenFromClickMenu(!isOpenFromClickMenu);
+    setIsMenuClose(false);
   };
   const changesBtnClick = () => {
     setChangesBtnMenu(!changesBtnMenu);
@@ -28,7 +31,7 @@ const NavMobile = () => {
         >
           <LogoNav />
         </NavLink>
-        <div onClick={openChangesBtnMenuMobile} className={`mr-6`}>
+        <div onClick={handleMenuMobile} className={`mr-6`}>
           {changesBtnMenu ? (
             <div onClick={changesBtnClick}>
               <BtnClose />
@@ -46,40 +49,56 @@ const NavMobile = () => {
         className={`font-reem p-10 ${isOpenFromClickMenu ? "block" : "hidden"}`}
       >
         <li className={`text-center pb-2`} aria-label="NavLink">
-          <NavLink
-            x-comp="NavLink"
-            className={`text-8b3dff text-lg transition hover:opacity-80`}
-            to="/"
+          <Link
+            to="home"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            onClick={handleMenuMobile}
+            className="text-8b3dff text-lg transition hover:opacity-80"
           >
             Accueil
-          </NavLink>
+          </Link>
         </li>
         <li className={`text-center pb-2`} aria-label="NavLink">
-          <NavLink
-            x-comp="NavLink"
-            className={`text-8b3dff text-lg transition hover:opacity-80`}
-            to="/"
+          <Link
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            onClick={handleMenuMobile}
+            className="text-8b3dff text-lg transition hover:opacity-80"
           >
             À propos
-          </NavLink>
+          </Link>
         </li>
         <li className={`text-center pb-2`} aria-label="NavLink">
-          <NavLink
-            x-comp="NavLink"
-            className={`text-8b3dff text-lg transition hover:opacity-80`}
-            to="/"
+          <Link
+            to="projets"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            onClick={handleMenuMobile}
+            className="text-8b3dff text-lg transition hover:opacity-80"
           >
             Projets
-          </NavLink>
+          </Link>
         </li>
         <li className={`text-center pb-2`} aria-label="NavLink">
-          <NavLink
-            x-comp="NavLink"
-            className={`text-8b3dff text-lg transition hover:opacity-80`}
-            to="/"
+          <Link
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            onClick={handleMenuMobile}
+            className="text-8b3dff text-lg transition hover:opacity-80"
           >
             Contact
-          </NavLink>
+          </Link>
         </li>
       </ul>
     </header>

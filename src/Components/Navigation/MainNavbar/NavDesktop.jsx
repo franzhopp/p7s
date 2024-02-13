@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import LogoSvg from "../../UI/Item/Svg/LogoNavDesktop";
+import { Link } from "react-scroll";
 
 const NavDesktop = () => {
   return (
@@ -20,27 +21,36 @@ const NavDesktop = () => {
         >
           Accueil
         </NavLink>
-        <NavLink
-          x-comp="NavLink"
+        <Link
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
           className="text-8b3dff text-lg transition hover:opacity-80"
-          to="/"
         >
           À propos
-        </NavLink>
-        <NavLink
-          x-comp="NavLink"
+        </Link>
+        <Link
+          to="projets"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
           className="text-8b3dff text-lg transition hover:opacity-80"
-          to="/"
         >
-          Projects
-        </NavLink>
-        <NavLink
-          x-comp="NavLink"
+          Projets
+        </Link>
+        <Link
+          to="contact"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
           className="text-8b3dff text-lg transition hover:opacity-80"
-          to="/"
         >
           Contact
-        </NavLink>
+        </Link>
       </nav>
     </header>
   );
