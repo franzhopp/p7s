@@ -12,7 +12,7 @@ const Contact = () => {
           <NavLink to={`/access`} className={`flex justify-center py-16`}>
             <BtnCv />
           </NavLink>
-          <div className={`flex justify-center`}>
+          <div data-aos="fade-in" className={`flex justify-center`}>
             <div className={`w-96 2xl:w-1/4`}>
               <FormContact />
             </div>

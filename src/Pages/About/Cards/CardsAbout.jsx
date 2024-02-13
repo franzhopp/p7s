@@ -3,7 +3,10 @@ import { BsMoonStars } from "react-icons/bs";
 const Cards = () => {
   return (
     <>
-      <div className={`bg-ffffff block rounded-3xl p-6 w-96 mb-10 2xl:mb-0`}>
+      <div
+        data-aos="fade-in"
+        className={`bg-ffffff block rounded-3xl p-6 w-96 mb-10 2xl:mb-0`}
+      >
         <BsMoonStars className={`h-12 w-12`} />
         <h5
           className={`text-8b3dff text-xl font-reem font-medium leading-tight mt-5 mb-2`}
@@ -23,7 +26,10 @@ const Cards = () => {
           dans le monde digital ? Très bonne question !
         </p>
       </div>
-      <div className={`bg-ffffff block rounded-3xl p-6 w-96 3xl:w-2/3`}>
+      <div
+        data-aos="fade-in"
+        className={`bg-ffffff block rounded-3xl p-6 w-96 3xl:w-2/3`}
+      >
         <BsMoonStars className={`h-12 w-12`} />
         <h5
           className={`text-8b3dff text-xl font-reem font-medium leading-tight mt-5 mb-2`}
@@ -36,15 +42,18 @@ const Cards = () => {
         <p
           className={`text-0d1216 font-reem mb-2 w-80 lg:w-full text-base lg:text-xl`}
         >
-          Il y a bien longtemps je naviguais sur des blogs que je trouvais très
-          beaux. Je me suis toujours demandée comment puis-je créer un blog ou
+          Il y a bien longtemps, je naviguais sur des blogs que je trouvais très
+          beaux. Je me suis toujours demandée comment peut-on créer un blog ou
           un site ? Cela m’a toujours fasciné de comprendre & d’identifier les
           objectifs, les besoins des utilisateurs afin d’améliorer leur parcours
           sur un site web, que ce soit une application mobile ou tout autre
           dispositif numérique. J’aime concevoir l’identité visuelle, &
           développer celle-ci avec React (ce framework est absolument mon coup
-          de cœur inexplicable). C'est une grande satisfaction de répondre aux
-          besoins des clients et créer des sites de qualité.
+          de cœur inexplicable), j’en apprends de jour en jour, je suis
+          impressionnée de voir que les languages informatiques de base ; HTML5,
+          CSS3, JavaScript ont des ressources bien plus vastes. Ça me passionne.
+          C’est une grande satisfaction également de répondre aux besoins des
+          clients à travers cette passion, & créer des sites de qualité.
         </p>
       </div>
     </>
