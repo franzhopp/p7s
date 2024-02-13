@@ -27,6 +27,15 @@ const FormAccessForCv = () => {
             className={`bg-ffffff rounded-3xl shadow-xl p-10`}
           >
             <div className={`pb-5`}>
+              <div className="text-center pb-5">
+                <label
+                  data-aos="zoom-out-right"
+                  htmlFor="AccessCv"
+                  className={`text-8b3dff font-reem text-base`}
+                >
+                  Entrez le code pour accéder au CV
+                </label>
+              </div>
               <input
                 type="password"
                 value={code}
