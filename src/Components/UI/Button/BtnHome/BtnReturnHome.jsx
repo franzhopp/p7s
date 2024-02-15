@@ -9,7 +9,7 @@ const BtnReturnHome = () => {
       <span
         className={`text-8b3dff font-reem font-extrabold mr-4 text-xl lg:text-3xl`}
       >
-        Page d'accueil
+        Page d’accueil
       </span>
       <svg
         className={`cursor-pointer rotate-90 h-10 w-10`}

@@ -1,6 +1,6 @@
+import { Link } from "react-scroll";
 import { NavLink } from "react-router-dom";
 import LogoSvg from "../../UI/Item/Svg/LogoNavDesktop";
-import { Link } from "react-scroll";
 
 const NavDesktop = () => {
   return (

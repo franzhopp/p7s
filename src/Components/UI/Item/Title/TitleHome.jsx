@@ -1,6 +1,6 @@
-import ArrowRefresHome from "../Svg/ArrowRefreshHome";
 import { TiSocialInstagramCircular } from "react-icons/ti";
 import { TiSocialLinkedinCircular } from "react-icons/ti";
+import ArrowRefresHome from "../Svg/ArrowRefreshHome";
 
 const TitleHome = () => {
   const RefreshPage = () => {

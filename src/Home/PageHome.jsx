@@ -15,7 +15,7 @@ const Homepage = () => {
       <div className={`bg-0d1216 h-72`}></div>
       <TitleHome />
       <Picture />
-      <About id="about" />
+      <About />
       <Projects />
       <Contact />
       <Footer />
