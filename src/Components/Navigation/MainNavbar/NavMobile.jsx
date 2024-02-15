@@ -13,10 +13,10 @@ const NavMobile = () => {
   const handleMenuMobile = () => {
     setToggleMenu(!toggleMenu);
     setIsOpenFromClickMenu(!isOpenFromClickMenu);
-    setIsMenuClose(false);
   };
   const changesBtnClick = () => {
     setChangesBtnMenu(!changesBtnMenu);
+    setIsMenuClose(false);
   };
   return (
     <header
