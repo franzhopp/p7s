@@ -6,17 +6,16 @@ import BtnOpen from "../../UI/Button/BtnNavMobile/BtnOpen";
 import BtnClose from "../../UI/Button/BtnNavMobile/BtnClose";
 
 const NavMobile = () => {
-  const [toggleMenu, setToggleMenu] = useState(false);
-  const [changesBtnMenu, setChangesBtnMenu] = useState(false);
+  // pour afficher la liste des liens
   const [isOpenFromClickMenu, setIsOpenFromClickMenu] = useState(false);
-  const [isMenuClose, setIsMenuClose] = useState(false);
+  // pour utiliser le rendering des 2 btn
+  const [changesBtnMenu, setChangesBtnMenu] = useState(false);
   const handleMenuMobile = () => {
-    setToggleMenu(!toggleMenu);
     setIsOpenFromClickMenu(!isOpenFromClickMenu);
+    setChangesBtnMenu(false);
   };
   const changesBtnClick = () => {
     setChangesBtnMenu(!changesBtnMenu);
-    setIsMenuClose(false);
   };
   return (
     <header
