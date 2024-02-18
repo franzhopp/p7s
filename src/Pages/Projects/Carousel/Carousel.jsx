@@ -18,10 +18,10 @@ export default function Carousel({
     return () => clearInterval(slideInterval);
   });
   return (
-    <div className={`flex flex-col h-96 w-96 3xl:w-1/2`}>
+    <div className={`flex flex-col w-96 3xl:w-1/2`}>
       <div
         x-comp={`Carousel`}
-        className={`relative overflow-hidden rounded-xl shadow-xl`}
+        className={`relative overflow-hidden rounded-l-xl rounded-r-xl shadow-xl`}
       >
         <div
           className={`flex transition-transform ease-out duration-500`}
