@@ -10,7 +10,6 @@ const NavMobile = () => {
   const [changesBtnMenu, setChangesBtnMenu] = useState(false);
   const handleListMenuMobile = () => {
     setIsOpenFromClickMenu(!isOpenFromClickMenu);
-    setChangesBtnMenu(false);
   };
   const changesBtnClick = () => {
     setChangesBtnMenu(!changesBtnMenu);
