@@ -1,4 +1,4 @@
-import { Link } from "react-scroll";
+import { NavLink } from "react-router-dom";
 
 const TitleContact = () => {
   return (
@@ -10,16 +10,11 @@ const TitleContact = () => {
         <p className={`text-0d1216 font-jacques text-xl lg:text-3xl`}>
           Travaillons ensemble, vous pouvez également trouver mes réseaux
           sociaux{" "}
-          <Link
-            to="home"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
+          <NavLink
             className={`text-8b3dff underline transition hover:opacity-80`}
           >
             en cliquant ici
-          </Link>
+          </NavLink>
           .
         </p>
       </div>

@@ -1,18 +1,21 @@
 import Carousel from "./Carousel.jsx";
+import IMG1 from "../../../assets/Image/Projet1.png";
 
 const slides = [
-  "https://i.ibb.co/B3s7v4h/2.png",
-  "https://i.ibb.co/ncrXc2V/1.png",
-  "https://i.ibb.co/B3s7v4h/2.png",
-  "https://i.ibb.co/B3s7v4h/2.png",
+  {
+    image: IMG1,
+  },
+  {
+    image: IMG1,
+  },
 ];
 
 export default function MainCarousel() {
   return (
     <div className={`flex justify-center pt-10`}>
       <Carousel autoSlide={true} autoSlideInterval={1000}>
-        {slides.map((s) => (
-          <img src={s} className={`h-96 w-96`} />
+        {slides.map((slide, index) => (
+          <img key={index} src={slide.image} />
         ))}
       </Carousel>
     </div>

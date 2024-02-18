@@ -6,7 +6,7 @@ import "./Styles/Image.css";
 
 const PageForAccessCv = () => {
   return (
-    <div className={`louisaimageblur bg-no-repeat bg-cover`}>
+    <div className={`bg-0d1216 bg-cover bg-no-repeat`}>
       <HeaderHome />
       <div>
         <TitleAccessForCv />
