@@ -19,7 +19,7 @@ export default function Carousel({
   });
   return (
     <div className={`flex flex-col w-96 3xl:w-1/2`}>
-      <div className="relative">
+      <div>
         <div
           x-comp={`Carousel`}
           className={`overflow-hidden rounded-xl shadow-xl`}
