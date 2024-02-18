@@ -19,65 +19,60 @@ export default function Carousel({
   });
   return (
     <div className={`flex flex-col w-96 3xl:w-1/2`}>
-      <div>
+      <div x-comp={`Carousel`} className={`relative overflow-hidden shadow-xl`}>
         <div
-          x-comp={`Carousel`}
-          className={`overflow-hidden rounded-xl shadow-xl`}
+          className={`flex transition-transform ease-out duration-500`}
+          style={{ transform: `translateX(-${curr * 100}%)` }}
         >
-          <div
-            className={`flex transition-transform ease-out duration-500`}
-            style={{ transform: `translateX(-${curr * 100}%)` }}
-          >
-            {slides}
-          </div>
-          <div
-            className={`flex items-center justify-between absolute inset-0 p-4`}
-          >
-            <button x-comp={`BtnLeft`}>
-              <div>
-                <div
-                  onClick={prev}
-                  className={`bg-ffffff p-4 rounded-full transform active:scale-75 transition-transform`}
+          {slides}
+        </div>
+        <div
+          className={`flex items-center justify-between absolute inset-0 p-4`}
+        >
+          <button x-comp={`BtnLeft`}>
+            <div>
+              <div
+                onClick={prev}
+                className={`bg-ffffff p-4 rounded-full transform active:scale-75 transition-transform`}
+              >
+                <svg
+                  className={`cursor-pointer rotate-180 h-5 w-5`}
+                  width="77"
+                  height="52"
+                  viewBox="0 0 77 52"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
-                  <svg
-                    className={`cursor-pointer rotate-180 h-5 w-5`}
-                    width="77"
-                    height="52"
-                    viewBox="0 0 77 52"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M5 21.5C2.51472 21.5 0.5 23.5147 0.5 26C0.5 28.4853 2.51472 30.5 5 30.5L5 21.5ZM77 26L32 0.0192375L32 51.9808L77 26ZM5 30.5L36.5 30.5V21.5L5 21.5L5 30.5Z"
-                      fill="#8B3DFF"
-                    />
-                  </svg>
-                </div>
+                  <path
+                    d="M5 21.5C2.51472 21.5 0.5 23.5147 0.5 26C0.5 28.4853 2.51472 30.5 5 30.5L5 21.5ZM77 26L32 0.0192375L32 51.9808L77 26ZM5 30.5L36.5 30.5V21.5L5 21.5L5 30.5Z"
+                    fill="#8B3DFF"
+                  />
+                </svg>
               </div>
-            </button>
-            <button x-comp={`BtnRight`}>
-              <div>
-                <div
-                  className={`bg-ffffff p-4 rounded-full transform active:scale-75 transition-transform`}
+            </div>
+          </button>
+          <button x-comp={`BtnRight`}>
+            <div>
+              <div
+                className={`bg-ffffff p-4 rounded-full transform active:scale-75 transition-transform`}
+              >
+                <svg
+                  onClick={next}
+                  className={`cursor-pointer rotate-0 h-5 w-5`}
+                  width="77"
+                  height="52"
+                  viewBox="0 0 77 52"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
-                  <svg
-                    onClick={next}
-                    className={`cursor-pointer rotate-0 h-5 w-5`}
-                    width="77"
-                    height="52"
-                    viewBox="0 0 77 52"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M5 21.5C2.51472 21.5 0.5 23.5147 0.5 26C0.5 28.4853 2.51472 30.5 5 30.5L5 21.5ZM77 26L32 0.0192375L32 51.9808L77 26ZM5 30.5L36.5 30.5V21.5L5 21.5L5 30.5Z"
-                      fill="#8B3DFF"
-                    />
-                  </svg>
-                </div>
+                  <path
+                    d="M5 21.5C2.51472 21.5 0.5 23.5147 0.5 26C0.5 28.4853 2.51472 30.5 5 30.5L5 21.5ZM77 26L32 0.0192375L32 51.9808L77 26ZM5 30.5L36.5 30.5V21.5L5 21.5L5 30.5Z"
+                    fill="#8B3DFF"
+                  />
+                </svg>
               </div>
-            </button>
-          </div>
+            </div>
+          </button>
         </div>
       </div>
       <div x-comp={`BtnDisplayPrevNext`} className={`pt-10`}>
