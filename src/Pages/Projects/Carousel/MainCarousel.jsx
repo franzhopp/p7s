@@ -15,7 +15,11 @@ export default function MainCarousel() {
     <div className={`flex justify-center pt-10`}>
       <Carousel autoSlide={true} autoSlideInterval={1000}>
         {slides.map((slide, index) => (
-          <img key={index} src={slide.image} />
+          <img
+            key={index}
+            src={slide.image}
+            className={`rounded-l-xl rounded-r-xl`}
+          />
         ))}
       </Carousel>
     </div>
