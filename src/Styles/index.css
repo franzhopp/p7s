@@ -52,3 +52,19 @@ input::placeholder {
 textarea::placeholder {
   color: #8b3dff;
 }
+
+.AnimationScrollingRtl:first-child {
+  animation: AnimationDefilementRtl 15s infinite linear;
+}
+
+@keyframes AnimationDefilementRtl {
+  0% {
+    transform: translate3d(0, 0, 0);
+
+  }
+
+  100% {
+    transform: translate3d(-100%, 0, 0);
+
+  }
+}

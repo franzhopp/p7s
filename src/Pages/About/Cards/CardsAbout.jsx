@@ -5,7 +5,7 @@ const Cards = () => {
     <>
       <div
         data-aos="fade-in"
-        className={`bg-ffffff block rounded-3xl p-6 w-96 mb-10 2xl:mb-0`}
+        className={`bg-ffffff rounded-3xl p-6 w-96 mb-10 2xl:mb-0`}
       >
         <BsMoonStars className={`h-12 w-12`} />
         <h5

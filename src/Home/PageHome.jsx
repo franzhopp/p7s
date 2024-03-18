@@ -6,6 +6,7 @@ import About from "../Pages/About/About";
 import Projects from "../Pages/Projects/Project";
 import Contact from "../Pages/Contact/Contact";
 import Footer from "../Components/Footer/Footer";
+import Skills from "../Pages/Skills/Skills.jsx";
 
 const Homepage = () => {
   return (
@@ -17,6 +18,7 @@ const Homepage = () => {
       <Picture />
       <About />
       <Projects />
+      <Skills />
       <Contact />
       <Footer />
     </main>
