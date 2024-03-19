@@ -18,6 +18,7 @@ const Cards = () => {
         <img src={Img1} className={`h-28 w-28`} />
         <img src={Img2} className={`h-28 w-28`} />
         <img src={Img3} className={`h-28 w-28`} />
+        <img src={Img12} className={`h-24 w-24 mt-2`} />
         <img src={Img4} className={`h-28 w-28`} />
         <img src={Img5} className={`h-28 w-28`} />
         <img src={Img6} className={`h-28 w-28`} />
@@ -26,7 +27,6 @@ const Cards = () => {
         <img src={Img9} className={`h-28 w-28`} />
         <img src={Img10} className={`h-28 w-28`} />
         <img src={Img11} className={`h-28 w-28`} />
-        <img src={Img12} className={`h-24 w-24 mt-2`} />
       </div>
     </>
   );

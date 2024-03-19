@@ -12,7 +12,7 @@ const Projects = () => {
           <MainCarousel />
         </div>
       </section>
-      <div id="contact"></div>
+      <div id="skills"></div>
     </>
   );
 };

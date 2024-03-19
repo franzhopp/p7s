@@ -52,6 +52,16 @@ const NavDesktop = () => {
           <NavLink to={`/`}>Projets</NavLink>
         </Link>
         <Link
+          to="skills"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          className="text-8b3dff text-lg transition hover:opacity-80"
+        >
+          <NavLink to={`/`}>Compétences</NavLink>
+        </Link>
+        <Link
           to="contact"
           spy={true}
           smooth={true}

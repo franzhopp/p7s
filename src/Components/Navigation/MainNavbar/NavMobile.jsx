@@ -91,6 +91,19 @@ const NavMobile = () => {
         </li>
         <li className={`text-center pb-2`} aria-label="NavLink">
           <Link
+            to="skills"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            onClick={handleListMenuMobile}
+            className="text-8b3dff text-lg transition hover:opacity-80"
+          >
+            <NavLink to={`/`}>Compétences</NavLink>
+          </Link>
+        </li>
+        <li className={`text-center pb-2`} aria-label="NavLink">
+          <Link
             to="contact"
             spy={true}
             smooth={true}
