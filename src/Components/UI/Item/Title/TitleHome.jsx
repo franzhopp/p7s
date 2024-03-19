@@ -22,9 +22,19 @@ const TitleHome = () => {
               rel="noreferrer"
               target="_blank"
             >
-              <TiSocialInstagramCircular className={`h-20 w-20 text-8b3dff`} />
+              <TiSocialInstagramCircular
+                className={`text-8b3dff h-20 w-20 transition-transform transform hover:scale-90`}
+              />
             </a>
-            <TiSocialLinkedinCircular className={`h-20 w-20 text-8b3dff`} />
+            <a
+              href="https://www.linkedin.com/in/louisa-hadjili-a935982b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <TiSocialLinkedinCircular
+                className={`text-8b3dff h-20 w-20 transition-transform transform hover:scale-90`}
+              />
+            </a>
           </div>
         </div>
       </div>

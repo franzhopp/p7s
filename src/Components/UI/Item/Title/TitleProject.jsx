@@ -8,7 +8,8 @@ const TitleProject = () => {
         Mes projets
       </h1>
       <p className={`text-ffffff font-jacques text-xl lg:text-3xl`}>
-        Les présentations de projet.
+        Les présentations de projet que j'ai participé au sein de mon expérience
+        professionnelle
       </p>
     </div>
   );
