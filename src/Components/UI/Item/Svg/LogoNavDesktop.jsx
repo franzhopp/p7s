@@ -1,7 +1,7 @@
 const LogoSvg = () => {
   return (
     <svg
-      className={`cursor-pointer`}
+      className={`cursor-pointer transform active:scale-75 transition-transform`}
       width="60"
       height="60"
       viewBox="0 0 100 100"
